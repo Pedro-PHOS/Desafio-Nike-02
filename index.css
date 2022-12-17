@@ -1,0 +1,177 @@
+@font-face {
+    font-family:"Mont_Bold";
+    src: url(/font/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family:"Mont_Med";
+    src: url(/font/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family:"Mont_SemiBold";
+    src: url(/font/Montserrat-SemiBold.ttf);
+}
+
+
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html{
+    font-family: "Mont_Med";
+    font-size: 20px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+}
+
+#prom_top{
+    height: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#jordan_top{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#wallpaper_shoes{
+    width: 100%;
+    height: 377px;
+    background-image: url(/image/wallpaper.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px;
+    position: relative;
+}
+
+#filter{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 377px;
+}
+
+#wallpaper_text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+    justify-content: center;
+    padding-inline: 40px;
+}
+
+#wallpaper_text h1{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+#wallpaper_text p{
+    font-size: 24px;
+    width: 80%;
+    line-height: 35px;
+}
+
+#destaques{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 15px;
+}
+
+#destaques h1{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 60px;
+}
+
+#destaques p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #474747;
+}
+
+#container_shoes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    width: 400px;
+    height: 300px;
+    background-color: #EBE9EA;
+    margin-block: 20px;
+    margin-inline: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img{
+    width: 60%;
+    height: 60%;
+}
+
+@media (max-width: 768px) {
+
+    #wallpaper_text {
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        padding-inline: 0px;
+    }
+
+    #wallpaper_text h1{
+        font-size: 28px;
+        line-height: 45px;
+        width: 80%;
+        text-align: center;
+    }
+    
+    #wallpaper_text p{
+        font-size: 16px;
+        width: 75%;
+        line-height: 25px;
+    }
+
+    #destaques{
+        text-align: center;
+    }
+
+    #destaques h1{
+        font-size: 25px;
+        line-height: 40px;
+    }
+    
+    #destaques p{
+        font-size: 15px;
+    }
+
+    .card{
+        margin-block: 10px;
+        margin-inline: 5px;
+    }
+}
