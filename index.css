@@ -132,7 +132,7 @@ header{
 
 .card img{
     width: 60%;
-    height: 60%;
+    height: 50%;
 }
 
 @media (max-width: 768px) {
@@ -173,5 +173,9 @@ header{
     .card{
         margin-block: 10px;
         margin-inline: 5px;
+    }
+    
+    .card img{
+        height: 48%;
     }
 }
