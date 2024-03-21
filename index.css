@@ -121,8 +121,6 @@ header{
 
 .card{
     display: flex;
-    width: 400px;
-    height: 300px;
     background-color: #EBE9EA;
     margin-block: 20px;
     margin-inline: 10px;
